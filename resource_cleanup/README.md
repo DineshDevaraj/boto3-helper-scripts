@@ -1,5 +1,5 @@
 # Resource Cleanup
-This program cleansup all instance of all of the following resources
+This program cleansup all instances of all of the following resources
 1. EC2s
 2. Vpcs
 3. Subnets
