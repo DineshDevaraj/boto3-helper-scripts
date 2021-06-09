@@ -1,0 +1,41 @@
+
+{
+	'AutoScalingGroups': [
+		{
+			'AutoScalingGroupARN': 'arn:aws:autoscaling:ap-south-1:131007912870:autoScalingGroup:aff28fde-fb06-49ba-8e8f-0297d6b57a6
+			9:autoScalingGroupName/as1',
+			'AutoScalingGroupName': 'as1',
+			'AvailabilityZones': ['ap-south-1b', 'ap-south-1a'],
+			'CreatedTime': datetime.datetime(2021, 6, 9, 6, 59, 15, 834000, tzinfo=tzutc()),
+			'DefaultCooldown': 300,
+			'DesiredCapacity': 1,
+			'EnabledMetrics': [],
+			'HealthCheckGracePeriod': 300,
+			'HealthCheckType': 'EC2',
+			'Instances': [],
+			'LaunchConfigurationName': 'lc1',
+			'LoadBalancerNames': [],
+			'MaxSize': 1,
+			'MinSize': 1,
+			'NewInstancesProtectedFromScaleIn': False,
+			'ServiceLinkedRoleARN': 'arn:aws:iam::131007912870:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAuto
+			Scaling',
+			'SuspendedProcesses': [],
+			'Tags': [],
+			'TargetGroupARNs': ['arn:aws:elasticloadbalancing:ap-south-1:131007912870:targetgroup/tg1/ef3f0eca3df19dc7'],
+			'TerminationPolicies': ['Default'],
+			'VPCZoneIdentifier': 'subnet-0491c3f9d3ff084a0,subnet-096c88ffd6d9c3b27'
+		}
+	],
+	'ResponseMetadata': {
+		'HTTPHeaders': {
+			'content-length': '1857',
+			'content-type': 'text/xml',
+			'date': 'Wed, 09 Jun 2021 06:59:20 GMT',
+			'x-amzn-requestid': 'e0782ad9-672d-4126-905d-0e666fe1d786'
+		},
+		'HTTPStatusCode': 200,
+		'RequestId': 'e0782ad9-672d-4126-905d-0e666fe1d786',
+		'RetryAttempts': 0
+	}
+}

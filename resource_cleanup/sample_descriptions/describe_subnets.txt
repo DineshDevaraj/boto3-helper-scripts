@@ -1,0 +1,85 @@
+
+{
+	'ResponseMetadata': {
+		'HTTPHeaders': {
+			'cache-control': 'no-cache, no-store',
+			'content-length': '3684',
+			'content-type': 'text/xml;charset=UTF-8',
+			'date': 'Wed, 09 Jun 2021 09:28:54 GMT',
+			'server': 'AmazonEC2',
+			'strict-transport-security': 'max-age=31536000; '
+			'includeSubDomains',
+			'vary': 'accept-encoding',
+			'x-amzn-requestid': '0d32e604-22fe-4a90-af0a-1c1d9deba146'
+		},
+		'HTTPStatusCode': 200,
+		'RequestId': '0d32e604-22fe-4a90-af0a-1c1d9deba146',
+		'RetryAttempts': 0
+	},
+	'Subnets': [
+		{
+			'AssignIpv6AddressOnCreation': False,
+			'AvailabilityZone': 'ap-south-1b',
+			'AvailabilityZoneId': 'aps1-az3',
+			'AvailableIpAddressCount': 11,
+			'CidrBlock': '10.0.0.32/28',
+			'DefaultForAz': False,
+			'Ipv6CidrBlockAssociationSet': [],
+			'MapCustomerOwnedIpOnLaunch': False,
+			'MapPublicIpOnLaunch': False,
+			'OwnerId': '131007912870',
+			'State': 'available',
+			'SubnetArn': 'arn:aws:ec2:ap-south-1:131007912870:subnet/subnet-03f54ac2439a1b1ce',
+			'SubnetId': 'subnet-03f54ac2439a1b1ce',
+			'VpcId': 'vpc-03f46e77540a53549'
+		},
+		{
+			'AssignIpv6AddressOnCreation': False,
+			'AvailabilityZone': 'ap-south-1a',
+			'AvailabilityZoneId': 'aps1-az1',
+			'AvailableIpAddressCount': 11,
+			'CidrBlock': '10.0.0.48/28',
+			'DefaultForAz': False,
+			'Ipv6CidrBlockAssociationSet': [],
+			'MapCustomerOwnedIpOnLaunch': False,
+			'MapPublicIpOnLaunch': False,
+			'OwnerId': '131007912870',
+			'State': 'available',
+			'SubnetArn': 'arn:aws:ec2:ap-south-1:131007912870:subnet/subnet-0328b2c52410d07f3',
+			'SubnetId': 'subnet-0328b2c52410d07f3',
+			'VpcId': 'vpc-03f46e77540a53549'
+		},
+		{
+			'AssignIpv6AddressOnCreation': False,
+			'AvailabilityZone': 'ap-south-1a',
+			'AvailabilityZoneId': 'aps1-az1',
+			'AvailableIpAddressCount': 11,
+			'CidrBlock': '10.0.0.16/28',
+			'DefaultForAz': False,
+			'Ipv6CidrBlockAssociationSet': [],
+			'MapCustomerOwnedIpOnLaunch': False,
+			'MapPublicIpOnLaunch': False,
+			'OwnerId': '131007912870',
+			'State': 'available',
+			'SubnetArn': 'arn:aws:ec2:ap-south-1:131007912870:subnet/subnet-0b032cddf747b5549',
+			'SubnetId': 'subnet-0b032cddf747b5549',
+			'VpcId': 'vpc-03f46e77540a53549'
+		},
+		{
+			'AssignIpv6AddressOnCreation': False,
+			'AvailabilityZone': 'ap-south-1b',
+			'AvailabilityZoneId': 'aps1-az3',
+			'AvailableIpAddressCount': 11,
+			'CidrBlock': '10.0.0.0/28',
+			'DefaultForAz': False,
+			'Ipv6CidrBlockAssociationSet': [],
+			'MapCustomerOwnedIpOnLaunch': False,
+			'MapPublicIpOnLaunch': False,
+			'OwnerId': '131007912870',
+			'State': 'available',
+			'SubnetArn': 'arn:aws:ec2:ap-south-1:131007912870:subnet/subnet-046ddbf7ec76eac45',
+			'SubnetId': 'subnet-046ddbf7ec76eac45',
+			'VpcId': 'vpc-03f46e77540a53549'
+		}
+	]
+}

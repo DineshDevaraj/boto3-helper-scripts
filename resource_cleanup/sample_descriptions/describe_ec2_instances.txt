@@ -1,0 +1,137 @@
+
+{
+	'Reservations': [
+		{
+			'Groups': [],
+			'Instances': [
+				{
+					'AmiLaunchIndex': 0,
+					'Architecture': 'x86_64',
+					'BlockDeviceMappings': [
+						{
+							'DeviceName': '/dev/sda1',
+							'Ebs': {
+								'AttachTime': datetime.datetime(2021, 6, 9, 6, 6, 12, tzinfo=tzutc()),
+								'DeleteOnTermination': True,
+								'Status': 'attached',
+								'VolumeId': 'vol-0130733e679188df8'
+							}
+						}
+					],
+					'CapacityReservationSpecification': {
+						'CapacityReservationPreference': 'open'
+					},
+					'ClientToken': 'bf5dd01f-d769-4968-b38c-e22dcf6b708d',
+					'CpuOptions': {
+						'CoreCount': 1,
+						'ThreadsPerCore': 1
+					},
+					'EbsOptimized': False,
+					'EnaSupport': True,
+					'EnclaveOptions': {'Enabled': False},
+					'HibernationOptions': {'Configured': False},
+					'Hypervisor': 'xen',
+					'ImageId': 'ami-0c1a7f89451184c8b',
+					'InstanceId': 'i-04e06c4d5221c9d54',
+					'InstanceType': 't2.micro',
+					'KeyName': 'aws-dell-laptop',
+					'LaunchTime': datetime.datetime(2021, 6, 9, 6, 6, 11, tzinfo=tzutc()),
+					'MetadataOptions': {
+						'HttpEndpoint': 'enabled',
+						'HttpPutResponseHopLimit': 1,
+						'HttpTokens': 'optional',
+						'State': 'applied'
+					},
+					'Monitoring': {'State': 'disabled'},
+					'NetworkInterfaces': [
+						{
+							'Association': {
+								'IpOwnerId': 'amazon',
+								'PublicDnsName': '',
+								'PublicIp': '13.127.231.18'
+							},
+							'Attachment': {
+								'AttachTime': datetime.datetime(2021, 6, 9, 6, 6, 11, tzinfo=tzutc()),
+								'AttachmentId': 'eni-attach-07e91ab288d2cb054',
+								'DeleteOnTermination': True,
+								'DeviceIndex': 0,
+								'NetworkCardIndex': 0,
+								'Status': 'attached'
+							},
+							'Description': '',
+							'Groups': [
+								{
+									'GroupId': 'sg-0a321ffa3cbd8776a',
+									'GroupName': 'default'
+								}
+							],
+							'InterfaceType': 'interface',
+							'Ipv6Addresses': [],
+							'MacAddress': '02:fa:41:80:13:58',
+							'NetworkInterfaceId': 'eni-07303942c6cb5e316',
+							'OwnerId': '131007912870',
+							'PrivateIpAddress': '10.0.0.53',
+							'PrivateIpAddresses': [
+								{
+									'Association': {
+										'IpOwnerId': 'amazon',
+										'PublicDnsName': '',
+										'PublicIp': '13.127.231.18'
+									},
+									'Primary': True,
+									'PrivateIpAddress': '10.0.0.53'
+								}
+							],
+							'SourceDestCheck': True,
+							'Status': 'in-use',
+							'SubnetId': 'subnet-0491c3f9d3ff084a0',
+							'VpcId': 'vpc-0ffd5e27fb75855fe'
+						}
+					],
+					'Placement': {
+						'AvailabilityZone': 'ap-south-1a',
+						'GroupName': '',
+						'Tenancy': 'default'
+					},
+					'PrivateDnsName': 'ip-10-0-0-53.ap-south-1.compute.internal',
+					'PrivateIpAddress': '10.0.0.53',
+					'ProductCodes': [],
+					'PublicDnsName': '',
+					'PublicIpAddress': '13.127.231.18',
+					'RootDeviceName': '/dev/sda1',
+					'RootDeviceType': 'ebs',
+					'SecurityGroups': [
+						{
+							'GroupId': 'sg-0a321ffa3cbd8776a',
+							'GroupName': 'default'
+						}
+					],
+					'SourceDestCheck': True,
+					'State': {'Code': 16, 'Name': 'running'},
+					'StateTransitionReason': '',
+					'SubnetId': 'subnet-0491c3f9d3ff084a0',
+					'VirtualizationType': 'hvm',
+					'VpcId': 'vpc-0ffd5e27fb75855fe'
+				}
+			],
+			'OwnerId': '131007912870',
+			'ReservationId': 'r-01a3b467c89186102'
+		}
+	],
+	'ResponseMetadata': {
+		'HTTPHeaders': {
+			'cache-control': 'no-cache, no-store',
+			'content-length': '6757',
+			'content-type': 'text/xml;charset=UTF-8',
+			'date': 'Wed, 09 Jun 2021 07:08:27 GMT',
+			'server': 'AmazonEC2',
+			'strict-transport-security': 'max-age=31536000; '
+			'includeSubDomains',
+			'vary': 'accept-encoding',
+			'x-amzn-requestid': '2bab949a-cf2a-4f80-b41e-116fbfa4e870'
+		},
+		'HTTPStatusCode': 200,
+		'RequestId': '2bab949a-cf2a-4f80-b41e-116fbfa4e870',
+		'RetryAttempts': 0
+	}
+}

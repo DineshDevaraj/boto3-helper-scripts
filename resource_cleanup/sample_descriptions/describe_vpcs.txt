@@ -1,0 +1,36 @@
+
+{
+	'ResponseMetadata': {
+		'HTTPHeaders': {
+			'cache-control': 'no-cache, no-store',
+			'content-length': '983',
+			'content-type': 'text/xml;charset=UTF-8',
+			'date': 'Wed, 09 Jun 2021 07:29:22 GMT',
+			'server': 'AmazonEC2',
+			'strict-transport-security': 'max-age=31536000; '
+			'includeSubDomains',
+			'x-amzn-requestid': '542643d4-3b03-4ac0-8e9f-a26c635cc55b'
+		},
+		'HTTPStatusCode': 200,
+		'RequestId': '542643d4-3b03-4ac0-8e9f-a26c635cc55b',
+		'RetryAttempts': 0
+	},
+	'Vpcs': [
+		{
+			'CidrBlock': '10.0.0.0/16',
+			'CidrBlockAssociationSet': [
+				{
+					'AssociationId': 'vpc-cidr-assoc-0cafcaa46a1bf289a',
+					'CidrBlock': '10.0.0.0/16',
+					'CidrBlockState': {'State': 'associated'}
+				}
+			],
+			'DhcpOptionsId': 'dopt-0531787248c3ba57a',
+			'InstanceTenancy': 'default',
+			'IsDefault': False,
+			'OwnerId': '131007912870',
+			'State': 'available',
+			'VpcId': 'vpc-0ffd5e27fb75855fe'
+		}
+	]
+}

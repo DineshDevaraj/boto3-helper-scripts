@@ -1,0 +1,35 @@
+
+{
+	'ResponseMetadata': {
+		'HTTPHeaders': {
+			'content-length': '1444',
+			'content-type': 'text/xml',
+			'date': 'Wed, 09 Jun 2021 06:26:16 GMT',
+			'x-amzn-requestid': '98377b92-c003-4d4f-8c3d-2ef5799e3abc'
+		},
+		'HTTPStatusCode': 200,
+		'RequestId': '98377b92-c003-4d4f-8c3d-2ef5799e3abc',
+		'RetryAttempts': 0
+	},
+	'TargetGroups': [
+		{
+			'HealthCheckEnabled': True,
+			'HealthCheckIntervalSeconds': 30,
+			'HealthCheckPath': '/',
+			'HealthCheckPort': 'traffic-port',
+			'HealthCheckProtocol': 'HTTP',
+			'HealthCheckTimeoutSeconds': 5,
+			'HealthyThresholdCount': 5,
+			'LoadBalancerArns': ['arn:aws:elasticloadbalancing:ap-south-1:131007912870:loadbalancer/app/lb1/94f1dd5d5d2d1d19'],
+			'Matcher': {'HttpCode': '200'},
+			'Port': 80,
+			'Protocol': 'HTTP',
+			'ProtocolVersion': 'HTTP1',
+			'TargetGroupArn': 'arn:aws:elasticloadbalancing:ap-south-1:131007912870:targetgroup/tg1/ef3f0eca3df19dc7',
+			'TargetGroupName': 'tg1',
+			'TargetType': 'instance',
+			'UnhealthyThresholdCount': 2,
+			'VpcId': 'vpc-0ffd5e27fb75855fe'
+		}
+	]
+}

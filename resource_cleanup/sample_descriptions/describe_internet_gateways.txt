@@ -1,0 +1,31 @@
+
+{
+	'InternetGateways': [
+		{
+			'Attachments': [
+				{
+					'State': 'available',
+					'VpcId': 'vpc-0ffd5e27fb75855fe'
+				}
+			],
+			'InternetGatewayId': 'igw-0a1b954b94cff1b16',
+			'OwnerId': '131007912870',
+			'Tags': []
+		}
+	],
+	'ResponseMetadata': {
+		'HTTPHeaders': {
+			'cache-control': 'no-cache, no-store',
+			'content-length': '649',
+			'content-type': 'text/xml;charset=UTF-8',
+			'date': 'Wed, 09 Jun 2021 07:35:53 GMT',
+			'server': 'AmazonEC2',
+			'strict-transport-security': 'max-age=31536000; '
+			'includeSubDomains',
+			'x-amzn-requestid': '58f76bfe-3315-424a-a106-13484b4067b4'
+		},
+		'HTTPStatusCode': 200,
+		'RequestId': '58f76bfe-3315-424a-a106-13484b4067b4',
+		'RetryAttempts': 0
+	}
+}

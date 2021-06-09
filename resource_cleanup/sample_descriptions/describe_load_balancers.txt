@@ -1,0 +1,41 @@
+
+{
+	'LoadBalancers': [
+		{
+			'AvailabilityZones': [
+				{
+					'LoadBalancerAddresses': [],
+					'SubnetId': 'subnet-0491c3f9d3ff084a0',
+					'ZoneName': 'ap-south-1a'
+				},
+				{
+					'LoadBalancerAddresses': [],
+					'SubnetId': 'subnet-096c88ffd6d9c3b27',
+					'ZoneName': 'ap-south-1b'
+				}
+			],
+			'CanonicalHostedZoneId': 'ZP97RAFLXTNZK',
+			'CreatedTime': datetime.datetime(2021, 6, 9, 6, 8, 45, 530000, tzinfo=tzutc()),
+			'DNSName': 'lb1-958856705.ap-south-1.elb.amazonaws.com',
+			'IpAddressType': 'ipv4',
+			'LoadBalancerArn': 'arn:aws:elasticloadbalancing:ap-south-1:131007912870:loadbalancer/app/lb1/94f1dd5d5d2d1d19',
+			'LoadBalancerName': 'lb1',
+			'Scheme': 'internet-facing',
+			'SecurityGroups': ['sg-0a321ffa3cbd8776a'],
+			'State': {'Code': 'active'},
+			'Type': 'application',
+			'VpcId': 'vpc-0ffd5e27fb75855fe'
+		}
+	],
+	'ResponseMetadata': {
+		'HTTPHeaders': {
+			'content-length': '1497',
+			'content-type': 'text/xml',
+			'date': 'Wed, 09 Jun 2021 06:26:15 GMT',
+			'x-amzn-requestid': '2b3a66ab-2a4a-4efa-8930-ffb27b4bde12'
+		},
+		'HTTPStatusCode': 200,
+		'RequestId': '2b3a66ab-2a4a-4efa-8930-ffb27b4bde12',
+		'RetryAttempts': 0
+	}
+}
